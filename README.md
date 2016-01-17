@@ -1,6 +1,6 @@
 # module-generator [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
-The generator script I use for fresh modules.
+The generator script I use for fresh modules. Forked from [hughsk](https://github.com/hughsk/module-generator).
 
 ## Usage
 
@@ -25,9 +25,8 @@ Run the generator in a fresh folder and you're good to go!
 mkdir my-new-module
 cd my-new-module
 module-generator
-npm init
 ```
 
 ## License
 
-MIT. See [LICENSE.md](http://github.com/hughsk/module-generator/blob/master/LICENSE.md) for details.
+MIT. See [LICENSE.md](http://github.com/fmal/module-generator/blob/master/LICENSE.md) for details.

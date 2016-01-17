@@ -1,11 +1,16 @@
-# {{name}} [![{{stability}}](http://badges.github.io/stability-badges/dist/{{stability}}.svg)](http://github.com/badges/stability-badges)
+# <%= name %>
 
-{{description}}
+[![Version npm](http://img.shields.io/npm/v/<%= name %>.svg?style=flat-square)](http://browsenpm.org/package/<%= name %>)
+[![BuildStatus](http://img.shields.io/travis/<%= user.github %>/<%= name %>/master.svg?style=flat-square)](https://travis-ci.org/<%= user.github %>/<%= name %>)
 
-## Usage
+<%= description %>
 
-[![NPM](https://nodei.co/npm/{{name}}.png)](https://nodei.co/npm/{{name}}/)
+## Install
+
+```sh
+npm install --save <%= name %>
+```
 
 ## License
 
-MIT. See [LICENSE.md](http://github.com/{{user.github}}/{{name}}/blob/master/LICENSE.md) for details.
+MIT. See [LICENSE.md](http://github.com/<%= user.github %>/<%= name %>/blob/master/LICENSE.md) for details.
