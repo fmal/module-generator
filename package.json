@@ -5,7 +5,6 @@
     "module-generator": "./bin/generator"
   },
   "description": "Generator script to automate boilerplate for new modules.",
-  "main": ".bin/generator",
   "license": "MIT",
   "scripts": {},
   "contributors": [
